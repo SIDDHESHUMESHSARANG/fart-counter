@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.counter {
+    margin-top: 100px;
+    font-size: 50px;
+    width: 500px;
+    padding: 10px 20px;
+    background-color: hsl(0, 6%, 90%);
+    border-radius: 20px;
+}
+
+.counter:hover {
+    background: hsl(0, 0%, 86%);
+}
+
+.line {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-left: 150px;
+    }
+
+    .line {
+        margin-left: 150px;
+    }
+
+
+
+}
